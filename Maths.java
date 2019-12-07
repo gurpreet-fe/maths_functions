@@ -25,6 +25,11 @@ class Maths
         num2 = sc.nextInt();
         System.out.println(num1 + " * " + num2 + " = " + multiplication(num1, num2));
 
+        System.out.println("Division? ");
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        System.out.println(num1 + " / " + num2 + " = " + division(num1, num2));
+
         sc.close();
     }
 
@@ -38,5 +43,9 @@ class Maths
 
     public static int multiplication(int num1, int num2) {
         return num1 * num2;
+    }
+
+    public static int division(int num1, int num2) {
+        return num1 / num2;
     }
 } 
